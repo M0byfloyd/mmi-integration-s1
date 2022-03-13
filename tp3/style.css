@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Helvetica','arial', sans-serif;
+}
+header {
+	height: 500px;
+	background-color: #3dd0ac;
+	background-image:url(images/tree.png);
+	background-repeat: no-repeat;
+	box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+nav {
+	width: 800px;
+	position: relative;
+	text-align: center;
+	padding: 20px;
+}
+li {
+	display: inline-block;
+}
+.lien_actif {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #3dd0ac;
+	background-color: white;
+	border-radius: 5px;
+	padding: 2px;
+}
+a {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+
+a:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover {
+	text-transform: uppercase;
+	color: black;
+	text-decoration: underline;
+}
+.titre {
+	margin-top: 350px;
+	text-transform: uppercase;
+	font-size: 45px;
+	text-align: center;
+	color: white;
+}
+section {
+	padding: 10px;
+	width: 760px;
+}
+iframe {
+	border: 0;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+img {
+	margin: 0 auto;
+    display: block;
+}
+section h1 {
+	font-size: 45px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+section p {
+	padding-top: 10px;
+	padding-bottom: 10px; 	 
+}
+footer {
+	padding: 10px;
+	height: 40px;
+	background-color: #3dd0ac;
+	box-shadow: 0 0 20px rgba(0,0,0,.2);
+	
+}
+footer p {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}

@@ -1,0 +1,160 @@
+﻿body {
+  background: #EEEEEE;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Sintony', sans-serif;
+}
+
+#zonecentrale {
+    background: #EEEEEE;
+}
+#menu {
+	position: relative;
+	top: 100px;
+}
+header {
+    
+}
+.liens {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	border-bottom: 2px solid red;
+}
+hr {
+	clear: both;
+	margin-top: 0px;
+}
+
+#titre_principal {
+	margin-bottom: 6px;
+    width: 292px;
+	height: 150px;
+	background-color:#EEEEEE;
+	float: left;
+}
+nav	{
+  	float: right;
+	background-color:#EEEEEE;
+	width: 596px;
+	height:150px;
+    text-align: right;
+}
+#banniere_image	{
+	margin-bottom: 12px;
+    height: 200px;
+  	position: relative;
+	background-color:#EEEEEE;
+    background-image: url(images/batiment.jpg);
+    border-radius:10px;
+    box-shadow: 0px 0px 5px black;	
+}
+#banniere_description {
+    height: 33px;
+    background-color: rgba(24,24,24,0.7);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+#banniere_description p {
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	top: 10px;
+
+}
+#description {
+	height: 70%;
+	margin-top: 30px;
+}
+#description p {
+	font-family: 'Sintony', sans-serif;
+}
+#logoetnom {
+	height: 30%;
+}
+#logoetnom p {
+	font-family: 'Damion', cursive;
+	font-size: 40px;
+}
+#bulle {
+	position: absolute;
+	top: 100px;
+	left: -12px;
+}
+article	{
+  	float: left;
+	height: 500px;
+	background-color:#EEEEEE;
+	width: 596px;
+}
+article p {
+	text-align: justify;
+}
+aside {
+    float: right;
+    background-color: #EEEEEE;
+    width: 292px;
+    height: 500px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    background-color: #706b64;
+}
+aside h2 {
+	color: white;
+}
+aside #silhouette {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#aside_text {
+	text-align: justify;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 0.8em;
+	color: white;
+}
+footer {
+	clear: both;
+	background-color:#EEEEEE;
+}
+#tweet {
+	height:125px;
+	width: 292px;
+	float: left;
+}
+
+#mes_photos	{
+	background-color:#EEEEEE;
+	height:125px;
+	width: 292px;
+	display: inline-block;
+	margin-right: 6px;
+	margin-left: 12px;
+}
+#mes_liens	{
+	background-color:#EEEEEE;
+	height:125px;
+	width: 292px;
+	float:right;
+}
+#mes_liens ul {
+	position: relative;
+	bottom: 20px;
+}
+#tweet , #mes_photos , #mes_liens {
+	box-shadow: 4px 4px 4px black;
+}
+
+
+
